@@ -5,7 +5,7 @@ import './index.css';
 const Statistic = ({text}) => {
   return (
     <>      
-      <td class="partTable">{text}</td>
+      <td className="partTable">{text}</td>
     </>
   );
 }
@@ -15,7 +15,7 @@ const Statistics = ({good, neutral, bad, total, average, percentage}) => {
     return (
       <tbody>
         <tr>
-          <td class="headerTbl">Statistics</td>
+          <td className="headerTbl">Statistics</td>
         </tr>
         <tr>
           <Statistic text="Good" />
@@ -77,7 +77,7 @@ const App = () => {
   }
 
   return (
-    <div class="wrapper">
+    <div className="wrapper">
       <h3>Give Feedback</h3>
 
       <Button handleClick={handleGood} text="good" />
