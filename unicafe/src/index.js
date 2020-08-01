@@ -4,8 +4,7 @@ import './index.css';
 
 const Statistic = ({text}) => {
   return (
-    <>
-      {/* <p>{text} {value}</p> */}
+    <>      
       <td class="partTable">{text}</td>
     </>
   );
